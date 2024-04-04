@@ -22,7 +22,7 @@ VLLM_TARGET_DEVICE = os.getenv("VLLM_TARGET_DEVICE", "cuda")
 assert sys.platform.startswith(
     "linux"), "vLLM only supports Linux platform (including WSL)."
 
-MAIN_CUDA_VERSION = "12.1"
+MAIN_CUDA_VERSION = "12.4"
 
 
 def is_sccache_available() -> bool:
